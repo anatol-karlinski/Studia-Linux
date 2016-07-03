@@ -1,0 +1,20 @@
+#!/bin/bash
+
+tab=(a b c d e)
+
+function sprafdz()
+{
+    flaga=0;
+    for a in ${tab[*]}
+    {
+	if(( $a==$1 )) 
+	then flaga=1;
+	fi
+
+    
+    }
+    echo "$flaga"
+}
+
+read x;
+sprafdz $x;

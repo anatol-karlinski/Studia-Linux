@@ -1,0 +1,12 @@
+#!/bin/bash
+rok=`date +'%Y'`
+if ((rok%4 == 0))
+then
+    echo "przestępny"
+elsif ((rok%4 == 0 && rok%100 == 0 && rok%400 != 0)) 
+    echo "przestępny"
+else
+    echo "nie przestępny"
+fi
+
+

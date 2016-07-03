@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#function spell(){
+#}
+
+
+for line in $ (cat /usr/share/dict/polish) do echo "$line" done
